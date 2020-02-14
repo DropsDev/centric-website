@@ -1,0 +1,85 @@
+.second-wrapper:after {
+    content: "" !important;
+    display: block !important;
+    clear: both !important;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.grd-green {
+    background: #ffffff;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(247, 254, 254, 1) 35%, rgb(249, 255, 253) 90%, rgb(255, 255, 255, 0) 100%)
+}
+
+.max-350 {
+    max-width: 350px !important;
+}
+
+.max-400 {
+    max-width: 400px !important;
+}
+
+.bg-hero {
+    background: linear-gradient(36deg, rgb(235, 235, 235) 12%, rgb(245, 245, 245) 71%);
+}
+
+.nav-abs {
+    position: absolute;
+    width: 100%;
+}
+
+.img-hero {
+    border-radius: 6px;
+    box-shadow: 0 23px 40px rgba(0, 0, 0, 0.2);
+    max-width: 350px !important;
+}
+
+.home-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transition: -webkit-filter .2s ease-out;
+    transition: filter .2s ease-out;
+    transition: filter .2s ease-out, -webkit-filter .2s ease-out;
+}
+
+.home-bg-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.home-bg[data-colour=pink] .home-bg-container:after {
+    background-color: #335eea !important;
+}
+
+.home-bg-container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background: linear-gradient(95deg, white, rgba(255, 255, 255, 0));
+}
+
+.home-bg .home-bg-container:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    mix-blend-mode: overlay;
+    opacity: 1 !important;
+    transition: opacity 1s ease-in-out;
+}
