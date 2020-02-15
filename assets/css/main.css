@@ -3510,8 +3510,8 @@ html.remodal-is-locked {
     padding: 11px 28px;
     padding: 0.6111rem 1.5556rem;
     transition: all 300ms ease-in-out;
-    border: 1PX solid inherit;
-    border-radius: 4em;
+    border: 1px solid inherit;
+    border-radius: 3px;
     text-decoration: none;
     outline: none
 }
@@ -3559,7 +3559,7 @@ html.remodal-is-locked {
     transform: translateY(-43%);
     width: 10.66667PX;
     height: 10.66667PX;
-    background-image: url("/wp-content/themes/theme/dist/images/line-arrow-right.svg");
+    background-image: url("/assets/img/line-arrow-right.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center
@@ -4240,7 +4240,7 @@ header.header.bg--white:not(.is-scrolled) {
 }
 
 header.header.is-scrolled {
-    box-shadow: 0 -0.5rem 2.6rem 0 rgba(5, 22, 70, 0.1)
+    background-color: rgba(255, 255, 255,0.5) !important;
 }
 
 header.header .o-wrapper {
@@ -6221,7 +6221,7 @@ body.home-slider-init .home-hero__bg__container:after {
 .home-hero .home-hero__bg[data-colour=green] .home-hero__bg__container:after {
     background-color: #00C189;
 }
-.home-hero .home-hero__bg[data-colour=green] + .home-hero__content .text-color{
+.home-hero .home-hero__bg[data-colour=green] + .home-hero__content .text-color , .text-green{
     color: #00C189;
 }
 .home-hero .home-hero__bg[data-colour=green]  + .home-hero__content .bg-color{
@@ -6233,7 +6233,7 @@ body.home-slider-init .home-hero__bg__container:after {
 .home-hero .home-hero__bg[data-colour=orange] .home-hero__bg__container:after{
     background-color: #ffaa46
 }
-.home-hero .home-hero__bg[data-colour=orange] + .home-hero__content .text-color{
+.home-hero .home-hero__bg[data-colour=orange] + .home-hero__content .text-color, .text-orange{
     color: #ffaa46
 }
 .home-hero .home-hero__bg[data-colour=orange]  + .home-hero__content .bg-color{
@@ -6245,7 +6245,7 @@ body.home-slider-init .home-hero__bg__container:after {
 .home-hero .home-hero__bg[data-colour=red] .home-hero__bg__container:after {
     background-color: #ff553f
 }
-.home-hero .home-hero__bg[data-colour=red] + .home-hero__content .text-color{
+.home-hero .home-hero__bg[data-colour=red] + .home-hero__content .text-color, .text-red{
     color: #ff553f
 }
 .home-hero .home-hero__bg[data-colour=red]  + .home-hero__content .bg-color{
@@ -6257,8 +6257,8 @@ body.home-slider-init .home-hero__bg__container:after {
 .home-hero .home-hero__bg[data-colour=blue] .home-hero__bg__container:after {
     background-color: #397FF6
 }
-.home-hero .home-hero__bg[data-colour=blue] + .home-hero__content .text-color{
-    color: #397FF6
+.home-hero .home-hero__bg[data-colour=blue] + .home-hero__content .text-color,.text-blue{
+    color: #5a97ff
 }
 .home-hero .home-hero__bg[data-colour=blue]  + .home-hero__content .bg-color{
     background-color: #397FF6;

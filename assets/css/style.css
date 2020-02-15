@@ -4,13 +4,57 @@
     clear: both !important;
 }
 
+.lh-md {
+    line-height: 1.5rem;
+}
+
 header {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: transparent !important
+}
+
+.bg-grey {
+    background-color: #fafafa;
+}
+
+.cover-icon {
+    position: absolute;
+    left: 0%;
+    top: 50px;
+    right: auto;
+    bottom: 0%;
+}
+
+.cover-icon-bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    max-width: 15%;
+    pointer-events: none;
+    will-change: transform;
+}
+
+.feature-block {
+    line-height: 30px;
+    margin: 0;
+    border-bottom: 2px solid #009688;
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    margin-right: 1rem;
+}
+
+.feature-block p {
+    font-size: 1rem;
+    margin: 0;
 }
 
 .grd-green {
     background: #ffffff;
     background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(247, 254, 254, 1) 35%, rgb(249, 255, 253) 90%, rgb(255, 255, 255, 0) 100%)
+}
+
+.grd-blue {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(202, 225, 255, 0.22) 35%, rgba(196, 224, 242, 0.52) 100%)
 }
 
 .max-350 {
