@@ -1473,13 +1473,13 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 }
 
 .ff-heading,
-.ff-Circular {
-    font-family: "Circular", sans-serif
+.ff-RivalSans {
+    font-family: "RivalSans", sans-serif
 }
 
 .ff-default,
 .ff-tiempo {
-    font-family: "Circular", serif
+    font-family: "RivalSans", serif
 }
 
 @-webkit-keyframes heroFadeUp {
@@ -2172,7 +2172,7 @@ html {
     line-height: 1.6;
     letter-spacing: -0.022em;
     color: #2D3C41;
-    font-family: "Circular", serif;
+    font-family: "RivalSans", serif;
     overflow-y: scroll;
     min-height: 100%;
     -webkit-font-smoothing: antialiased;
@@ -2185,7 +2185,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Circular", sans-serif;
+    font-family: "RivalSans", sans-serif;
     font-weight: 600
 }
 
@@ -2762,7 +2762,7 @@ html.remodal-is-locked {
     color: #fff;
     text-decoration: none;
     padding: 2rem;
-    font-family: "Circular", sans-serif;
+    font-family: "RivalSans", sans-serif;
     border: 1px solid transparent;
     border-radius: 4px;
     transition: border-color 0.2s ease, background-color 0.2s ease
@@ -3500,7 +3500,7 @@ html.remodal-is-locked {
     justify-content: center;
     align-items: center;
     vertical-align: middle;
-    font-family: "Circular", sans-serif;
+    font-family: "RivalSans", sans-serif;
     font-weight: 600;
     letter-spacing: -0.56px;
     letter-spacing: -0.0311rem;
@@ -4178,7 +4178,7 @@ html .hamburger * {
 .mobile-nav a {
     color: #fff;
     text-decoration: none;
-    font-family: "Circular", sans-serif;
+    font-family: "RivalSans", sans-serif;
     font-weight: 600
 }
 
@@ -4988,7 +4988,7 @@ body.lang-fr .footer__ball:after {
 
 .customer-cta cite {
     font-style: normal;
-    font-family: "Circular", sans-serif
+    font-family: "RivalSans", sans-serif
 }
 
 .customer-cta cite>div {
@@ -5171,12 +5171,12 @@ body.lang-fr .footer-cta__buttons {
 }
 
 .text-card h3:not(.ff-heading) {
-    font-family: "Circular", serif
+    font-family: "RivalSans", serif
 }
 
 .text-card h3.ff-heading {
     font-weight: 600;
-    font-family: "Circular", sans-serif;
+    font-family: "RivalSans", sans-serif;
     line-height: 1.2;
     font-size: 42px !important;
     font-size: 2.3333rem !important
@@ -5495,7 +5495,7 @@ body.lang-fr .footer-cta__buttons {
 
 .csp__quote cite {
     display: block;
-    font-family: "Circular", sans-serif;
+    font-family: "RivalSans", sans-serif;
     font-style: normal;
     line-height: 1.4;
     margin-top: 1rem
@@ -5750,7 +5750,7 @@ body.lang-fr .footer-cta__buttons {
 
 .author-card div:last-child h5,
 .author-card div:last-child p {
-    font-family: "Circular", sans-serif;
+    font-family: "RivalSans", sans-serif;
     margin: 0;
     line-height: 1.33;
     font-size: 14px;
@@ -5802,7 +5802,7 @@ body.lang-fr .footer-cta__buttons {
     font-size: 18px;
     font-size: 1rem;
     color: #fff;
-    font-family: "Circular", sans-serif;
+    font-family: "RivalSans", sans-serif;
     font-weight: 600;
     margin: 0 7.5px;
     margin: 0 0.4167rem;
@@ -7126,7 +7126,7 @@ body.home-slider-init .home-hero__bg__container:after {
 }
 
 .page--become-a-shepherd .customer-cta h3 {
-    font-family: "Circular", serif;
+    font-family: "RivalSans", serif;
     font-style: italic;
     font-size: 18px !important;
     font-size: 1rem !important;
@@ -7466,7 +7466,7 @@ body.home-slider-init .home-hero__bg__container:after {
 .about-global__graphic .stat__content {
     color: #00C189;
     font-weight: 600;
-    font-family: "Circular", sans-serif
+    font-family: "RivalSans", sans-serif
 }
 
 .about-global__graphic .stat {
@@ -7676,7 +7676,7 @@ body.home-slider-init .home-hero__bg__container:after {
     font-size: 42px;
     font-size: 2.3333rem;
     font-weight: 600;
-    font-family: "Circular", sans-serif
+    font-family: "RivalSans", sans-serif
 }
 
 .about-team__member {
@@ -7774,7 +7774,7 @@ body.home-slider-init .home-hero__bg__container:after {
 
 .page--blog-post .hero article .post-details {
     font-size: 16PX;
-    font-family: "Circular", sans-serif;
+    font-family: "RivalSans", sans-serif;
     display: flex;
     justify-content: space-between;
     font-weight: 500;
@@ -7799,7 +7799,7 @@ body.home-slider-init .home-hero__bg__container:after {
     border-radius: 4px;
     padding: 4px 10px;
     padding: 0.2222rem 0.5556rem;
-    font-family: "Circular", sans-serif;
+    font-family: "RivalSans", sans-serif;
     font-weight: 600;
     color: #00C189;
     margin-top: 20PX
@@ -7855,7 +7855,7 @@ section.blog-post .o-wrapper h1 {
 
 .post-content,
 .post-content>.o-layout__item {
-    font-family: "Circular", sans-serif
+    font-family: "RivalSans", sans-serif
 }
 
 .post-content p,
@@ -7983,7 +7983,7 @@ section.blog-post .o-wrapper h1 {
 .post-content>.o-layout__item blockquote {
     font-style: italic;
     margin: 2em auto;
-    font-family: "Circular", serif
+    font-family: "RivalSans", serif
 }
 
 @media (min-width: 46.25em) {
@@ -8248,7 +8248,7 @@ section.blog-post .o-wrapper h1 {
 }
 
 .careers-life li {
-    font-family: "Circular", serif;
+    font-family: "RivalSans", serif;
     margin-bottom: 0.7rem;
     padding-left: 30px;
     padding-left: 1.6667rem;
@@ -8344,7 +8344,7 @@ section.careers .text-card p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: "Circular", sans-serif;
+    font-family: "RivalSans", sans-serif;
     text-decoration: none;
     color: #2D3C41;
     border-radius: 2px;
@@ -8616,7 +8616,7 @@ form textarea {
     padding: 0 1.8333rem;
     color: #4E5A6D;
     font-weight: 500;
-    font-family: "Circular", sans-serif;
+    font-family: "RivalSans", sans-serif;
     transition: border-color 0.3s
 }
 
@@ -8932,7 +8932,7 @@ nav.legal-menu>div li.current_page_item {
 nav.legal-menu .menu-legal-menu-container li a,
 nav.legal-menu>div li a {
     text-decoration: none;
-    font-family: "Circular", sans-serif;
+    font-family: "RivalSans", sans-serif;
     font-weight: 500;
     color: #4E5A6D
 }
@@ -9158,7 +9158,7 @@ nav.legal-menu>div li:hover {
     border: 1px solid #E5E9F0;
     border-radius: 3px;
     font-size: 1em;
-    font-family: "Circular", sans-serif
+    font-family: "RivalSans", sans-serif
 }
 
 .categories .categories-cont .categories-dropdown {
@@ -9199,7 +9199,7 @@ nav.legal-menu>div li:hover {
     border-radius: 25px;
     padding-left: 60px;
     padding-left: 3.3333rem;
-    font-family: "Circular", sans-serif;
+    font-family: "RivalSans", sans-serif;
     outline: 0;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -9255,7 +9255,7 @@ nav.legal-menu>div li:hover {
     border-radius: 25px;
     padding-left: 60px;
     padding-left: 3.3333rem;
-    font-family: "Circular", sans-serif;
+    font-family: "RivalSans", sans-serif;
     outline: 0;
     color: #fff
 }
@@ -9344,7 +9344,7 @@ nav.legal-menu>div li:hover {
 
 .post .post-details {
     font-size: 14PX;
-    font-family: "Circular", sans-serif;
+    font-family: "RivalSans", sans-serif;
     display: flex;
     justify-content: space-between;
     font-weight: 500;
@@ -9394,7 +9394,7 @@ nav.legal-menu>div li:hover {
 }
 
 .post .post-author p {
-    font-family: "Circular", sans-serif;
+    font-family: "RivalSans", sans-serif;
     font-size: 14PX;
     color: #2D3C41
 }
@@ -9515,7 +9515,7 @@ nav.legal-menu>div li:hover {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-family: "Circular", sans-serif
+    font-family: "RivalSans", sans-serif
 }
 
 .events .event__cont a div span {
@@ -9556,7 +9556,7 @@ nav.legal-menu>div li:hover {
     color: #00C189;
     font-weight: 500;
     font-size: 14PX;
-    font-family: "Circular", sans-serif
+    font-family: "RivalSans", sans-serif
 }
 
 .popular>h5 {
